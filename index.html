@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escporte Clube</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="styles.css">
+   
+
+</head>
+<body>
+  <header class="cabeçalho">
+    <div class=caixa>
+        <input type="checkbox" id="menu" class="caixa-botao">
+        <label for="menu">
+    <span class="cabeçalho-menu-amburguer caixa-imagem"></span></label>
+    <ul class="lista-menu">
+        <li class="lista-menu-titulo"> RESTAURANTE
+        CARDÁPIO
+
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">ARROZ</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">FEIJÃO</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">CARNE DE PANELA</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">SALADA</a>
+        </li>
+    </ul>
+    <a href="#"><img class=caixa-imagem src="carrinho de compras.svg" alt="carrinho de compras"></a></div>
+   
+    <div class=caixa><a href="#"><li class="cadastro">CADASTRO</li></a><a href="#"><img  class=caixa-imagem src="home.svg" alt="home"></a>
+    <a href="#" ><img  class=caixa-imagem src="meus favoritos.svg" alt="meus favoritos"></a></div>
+</header>
+<section class="banner">
+    <h2 class="banner-titulo"> Você Já sabe por onde começar?</h2>
+    <p class="banner-texto"> Saiba um pouco mais do restaurante Almeida</p>
+    <input type="search" class="banner-pesquisa" 
+   placeholder="Qual será sua comida escolhida?">
+</section>
+<section class="carrossel">
+    <h2 class="carrossel-titulo"> conheça nosso restaurante</h2>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="restaurante.webp" alt="restaurante"></div>
+      <div class="swiper-slide"><img src="comida.webp" alt="comida"></div>
+      <div class="swiper-slide"><img src="massas.jpeg" alt="massas"></div>
+      <div class="swiper-slide"><img src="carne de panela com batatas.jpg" alt="carne de panela com batatas"></div>
+      <div class="swiper-slide"><img src="saladas.jpeg" alt="saladas"></div>
+      <div class="swiper-slide"><img src="feijao-preto e arroz.jpeg" alt="feijao-preto e arroz"></div>
+    </div>
+   
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="card">
+                <!-- 1º linha -->
+      <div class="card-descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <h3 class="decrição-titulo"> no restaurante Almeida você encontra varias opções de pratos deliciosos 
+            .</h3>
+
+             <h2 Class="descrição-piscina"> Area de lazar para você e sua familia. </h2>
+
+             <p class="descriçã-texto">FIQUE POR DENTRO DAS NOVIDADES E PROMOÇÕES. </p> </div>
+             <!-- 2º coluna -->
+              <img src="Mesas e cadeiras.jpg" class="mesas e cadeiras">
+      </div>
+      <!-- 2º linha -->
+       <div class="card-botões">
+         <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões-item"><img src="meus favoritos.svg" alt="favoritar piscina"></li>
+          <li class="botões-item"><img src="carrinho de compras.svg" alt="adicionar no carrinho"></li>
+        </ul>
+        <!-- 2º coluna -->
+         <a href="#" class="botões-ancora">venha experimentar nossa deliciosa comida</a>
+       </div>
+    </div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+</section>
+<section class="tópicos">
+  <h2 class= "tópicos-titulo">comidas</h2>
+  <ul class="tópicos-lista">
+<li class="tópicos-item"> <a href="#" class="tópicos-link">massas</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">carne de panela</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">saladas</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">feijao-preto e arroz</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">area de lazer</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">bebidas</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">entre outras delicias do restaurante Almeida</a></li>
+
+  </ul>
+
+</section>
+<section class="contato">
+<h2 class="contato-titulo">fique por dentro das proções</h2>
+<p class="contato-texto">cardápios diferentes todos os dias</p>
+<input type="email" placeholder="Cadastre seu e-mail" class="contato-email">
+</section>
+<hr />
+
+<footer class="rodapé"><a href="https://wa.me/qr/ML5S65MCJPAGJ1"><h2 class="rodapé-titulo">WHATSAPP</h2></a></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script> const swiper = new Swiper('.swiper', {
+    spaceBetween: 10, slidesPerView: 3,
+    pagination: { el: '.swiper-pagination',
+        type: 'bullets',},
+    });</script>
+</body>
+</html>
